@@ -10,7 +10,7 @@
     background-color: #025e731c;
     border-radius: 6px;
     color: rgba(255, 255, 255, .8);
-    margin-left: 25px;
+    
     font-weight: 500;
     transition: 0.75s;
 }
@@ -27,4 +27,13 @@
     margin: auto 12.5px;
 
     background-color: #025E73;
+}
+
+
+@media (max-width: 991.98px) {  
+    #NavBar #contact{
+        width: 140px;
+        padding-left: 10px;
+    }
+
 }
