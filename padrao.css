@@ -1,0 +1,30 @@
+#NavBar /*Caixa da barra de navegação*/
+{
+    font-size: 0.9em;
+}
+#NavBar a.navbar-brand img /*Logo da barra de navegação*/
+{
+    width: 30px;
+}
+#NavBar #contact{
+    background-color: #025e731c;
+    border-radius: 6px;
+    color: rgba(255, 255, 255, .8);
+    margin-left: 25px;
+    font-weight: 500;
+    transition: 0.75s;
+}
+#NavBar #contact:hover{
+    background-color: #086f8657;
+    color: rgba(255, 255, 255, 1);
+}
+
+#NavBar .divisao{
+    width: 1px;
+    border-radius:10px;
+    height: 20px;
+
+    margin: auto 12.5px;
+
+    background-color: #025E73;
+}
