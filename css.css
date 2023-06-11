@@ -26,7 +26,13 @@ body{
     color: rgba(255, 255, 255, .8);
     margin-left: 25px;
     font-weight: 500;
+    transition: 0.75s;
 }
+#NavBar #contact:hover{
+    background-color: #086f8657;
+    color: rgba(255, 255, 255, 1);
+}
+
 #NavBar .divisao{
     width: 1px;
     border-radius:10px;
