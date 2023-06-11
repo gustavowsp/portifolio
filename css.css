@@ -1,0 +1,97 @@
+
+html,body{
+    height: 100%;
+}
+body{
+    background: url(img/background.jpg);
+    background-size: cover;
+    background-position: center ;
+    background-repeat: no-repeat;
+}
+
+
+/*Formatando a barra de navegação*/
+
+#NavBar /*Caixa da barra de navegação*/
+{
+    font-size: 0.9em;
+}
+#NavBar a.navbar-brand img /*Logo da barra de navegação*/
+{
+    width: 30px;
+}
+#NavBar #contact{
+    background-color: #025e731c;
+    border-radius: 6px;
+    color: rgba(255, 255, 255, .8);
+    margin-left: 25px;
+    font-weight: 500;
+}
+#NavBar .divisao{
+    width: 1px;
+    border-radius:10px;
+    height: 20px;
+
+    margin: auto 12.5px;
+
+    background-color: #025E73;
+}
+
+
+/*Formatando a caixa de informações*/
+#InfoBox{
+    width: 100%;
+
+}
+#InfoBox h1{
+    font-weight: 700;
+    font-size: 3em;
+    margin-bottom: 10px;
+
+}
+#InfoBox #GlassEfect{
+    padding: 20px 30px;
+    border-radius: 20px;
+    backdrop-filter: blur(3px);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    overflow: hidden;
+}
+#GlassEfect .Text{
+    position: relative;
+    top: 100px;
+    opacity: 0;
+    transition: 1s;
+    transition-delay: 2.5s;
+}
+#GlassEfect:hover .Text{
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    transition: 0.5s;
+}
+#InfoBox p{
+    font-weight: 400;
+    margin-bottom: 25px;
+    letter-spacing: 0.6px;
+    font-size: 0.9em;
+}
+#InfoBox a{
+    
+    color: aliceblue;
+    background-color:  #3DD5FA;
+    background-color:  #054D8A;
+    background-color:  #14829b;
+    text-decoration: none;
+
+    
+    display: inline-block !important;
+    
+    border-radius: 5px;
+    padding: 8px 20px;
+
+    font-size: 0.9em;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    
+    box-shadow: 4px 2px 3px 2px rgba(0, 0, 0, .6) ;
+}
